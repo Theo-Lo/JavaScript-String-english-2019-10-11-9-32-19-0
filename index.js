@@ -11,4 +11,4 @@ sentence = sentence.replace(/\b\w/g, l => l.toUpperCase());
 // Complete the following procedure to extract the amount of money variable, output: 20.
 var money = '￥20';
 //TODO write your code here...
-var ReplacedMoney = money.replace(/\￥/g,'');
+money = money.replace(/\￥/g,'');
